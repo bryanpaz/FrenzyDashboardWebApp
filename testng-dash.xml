@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1">
+<listeners>
+ <listener class-name="fd.Listeners"></listener>
+ </listeners>
+  <test name="dashboard" >
+    <classes>
+       <class name="fd.dashboard" >
+       	<methods>
+       	<include name="AbrirNavegador"/>
+       	<include name="IniciarSesion"/>
+       	<include name="Select"/>
+       	<include name="Promo"/>
+       	<include name="NuevoCupon"/>
+       	<include name="TLealtad"/>
+       	<include name="PremiosalInstante"/>
+      	</methods>
+      </class>
+    </classes>
+  </test>
+ </suite>

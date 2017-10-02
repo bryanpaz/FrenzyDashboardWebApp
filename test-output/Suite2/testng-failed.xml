@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite2]">
+  <test name="Test_Frenzy_Firefox(failed)">
+    <classes>
+      <class name="Package_1.Test_Frenzy_Firefox">
+        <methods>
+          <include name="BotonesHome"/>
+          <include name="Ofertas"/>
+          <include name="QueEsFrenzyVideo"/>
+          <include name="ComoGanoBits"/>
+          <include name="Categorias"/>
+          <include name="Premios"/>
+          <include name="BotonesApp"/>
+          <include name="GanarBits"/>
+        </methods>
+      </class> <!-- Package_1.Test_Frenzy_Firefox -->
+    </classes>
+  </test> <!-- Test_Frenzy_Firefox(failed) -->
+</suite> <!-- Failed suite [Suite2] -->

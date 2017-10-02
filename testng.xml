@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1">
+<listeners>
+ <listener class-name="fd.Listeners"></listener>
+ </listeners>
+  <test name="test" >
+    <classes>
+       <class name="fd.test" >
+       	<methods>
+       	<include name="AbrirNavegador1"/>
+       	<include name="Navegacion"/>
+       	<include name="HomeServicios"/>
+       	<include name="VideoHome"/>
+       	<include name="Formulario"/>
+   		<include name="SeccionSistemaDeBits" />
+   		<include name="VideoSistemadeBits" />
+   		<include name="BotonComprar" />
+   		<include name="CalculaTuCosto" />
+   		<include name="Registrate" />
+   		<include name="SeccionCuponesyPromociones" />
+   		<include name="ButtonsRegistrate" />
+   		<include name="SeccionSistemadeGibits" />
+   		<include name="SistemadeGibitsVideo" />
+   		<include name="ButtonsCompraryRegistrate" />
+      	</methods>
+      </class>
+    </classes>
+  </test>
+ </suite>

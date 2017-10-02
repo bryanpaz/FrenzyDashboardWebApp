@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite2">
+  <test name="Test_Frenzy_Firefox" >
+    <classes>
+       <class name="Package_1.Test_Frenzy_Firefox" >
+       <methods>
+       	<include name="AbrirNavegador"/>
+       	<include name="Login"/>
+       	<include name="Navegacion"/>
+       	<include name="BotonesHome"/>
+       	<include name="Categorias"/>
+       	<include name="GanarBits"/>
+       	<include name="QueEsFrenzyVideo"/>
+       	<include name="ComoGanoBits"/>
+       	<include name="Ofertas"/>
+       	<include name="Premios"/>
+       	<include name="BotonesApp"/>
+       </methods>
+       </class>
+    </classes>
+    <parameter name="pdfngreport-properties" value="pdfngreport.properties" />
+    <listeners>
+    <listener class-name="com.uttesh.pdfngreport.PDFReportListener" />
+  </listeners>
+  </test>
+</suite>
+
